@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-@@include('../blocks/head/head.html')
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="images/logoBlue.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <title>MARCAR</title>
+</head>
 
 <body>
     <div class="wrapper">
@@ -13,6 +21,38 @@
 
         <main class="main">
 
+            @@include('../blocks/pages/homePage/advertisement/advertisement.html')
+            <!-- /.advertisement -->
+
+            @@include('../blocks/pages/homePage/model/model.html')
+            <!-- /.model -->
+
+            @@include('../blocks/pages/homePage/newCars/newCars.html')
+            <!-- /.newCars -->
+
+            @@include('../blocks/pages/homePage/usedCars/usedCars.html')
+            <!-- /.usedCars -->
+
+            @@include('../blocks/pages/homePage/taxiCars/taxiCars.html')
+            <!-- /.taxiCars -->
+
+            @@include('../blocks/pages/homePage/recommended/recommended.html')
+            <!-- /.recommended -->
+
+            @@include('../blocks/pages/homePage/services/services.html')
+            <!-- /.services -->
+
+            @@include('../blocks/pages/homePage/new-products/new-products.html')
+            <!-- /.new-products -->
+
+            @@include('../blocks/pages/homePage/promotions/promotions.html')
+            <!-- /.promotions -->
+
+            @@include('../blocks/pages/homePage/feedback/feedback.html')
+            <!-- /.feedback -->
+
+            @@include('../blocks/pages/homePage/video-reviews/video-reviews.html')
+            <!-- /.video-reviews -->
 
         </main>
         <!-- /.main -->
@@ -24,8 +64,11 @@
     </div>
     <!-- /.wrapper -->
 
-    @@include('../blocks/foot/foot.html')
-    <!-- /.foot -->
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+    <script src="/js/sliders/itc-slider.js"></script>
+    <script src="/js/pagination.js"></script>
+    <script src="/js/accordion.js"></script>
+    <script src="/js/main.js"></script>
 
 </body>
 

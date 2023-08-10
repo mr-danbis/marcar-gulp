@@ -1,9 +1,10 @@
 //settings
-@import 'settings/vars';
 @import 'settings/color';
 @import 'settings/fonts';
 @import 'settings/reset';
 @import 'settings/global';
+@import 'settings/common/carsGrid';
+@import 'settings/common/itc-slider';
 
 //common blocks
 @import '../blocks/header/header';
@@ -11,3 +12,13 @@
 @import '../blocks/sidebar/sidebar';
 
 //main page blocks
+@import '../blocks/pages/homePage/model/model';
+@import '../blocks/pages/homePage/newCars/newCars';
+@import '../blocks/pages/homePage/usedCars/usedCars';
+@import '../blocks/pages/homePage/taxiCars/taxiCars';
+@import '../blocks/pages/homePage/recommended/recommended';
+@import '../blocks/pages/homePage/services/services';
+@import '../blocks/pages/homePage/new-products/new-products';
+@import '../blocks/pages/homePage/promotions/promotions';
+@import '../blocks/pages/homePage/feedback/feedback';
+@import '../blocks/pages/homePage/video-reviews/video-reviews';
