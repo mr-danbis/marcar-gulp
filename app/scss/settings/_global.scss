@@ -370,21 +370,8 @@ body {
     }
 }
 
-@media (min-width: 1201px) and (max-width: 1700px) {
-    .wrapper {
-        width: 1000px;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    .wrapper {
-        width: 900px;
-    }
-}
-
 @media (min-width: 577px) and (max-width: 992px) {
     .wrapper {
-        width: 750px;
         &__left-block, &__right-block {
             width: 100%;
         }
@@ -395,21 +382,10 @@ body {
     }
 }
 
-@media (min-width: 375px) and (max-width: 576px) {
-    .wrapper {
-        width: 345px;
-    }
-}
 
-@media (min-width: 320px) and (max-width: 375px) {
-    .wrapper {
-        width: 320px;
-    }
-}
 
 @media (max-width: 576px) {
     .wrapper {
-        width: 92%;
         &__header {
             gap: 0;
             &-title {
