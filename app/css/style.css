@@ -603,6 +603,8 @@ body {
   width: auto;
 }
 .taxiRentPage .selectionByParameters .carsGrid__list {
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: (1fr)[4];
   grid-template-columns: repeat(4, 1fr);
 }
@@ -2089,6 +2091,742 @@ h6.news__single__title {
 .disabled {
   pointer-events: none;
   opacity: 0.5;
+}
+
+.service__main-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.service-main {
+  margin: 30px auto 80px !important;
+}
+.service-main__list {
+  gap: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+.service-main__list__item {
+  width: 406px;
+  height: 290px;
+}
+.service-main__list__item-content {
+  color: #ffffff;
+  position: relative;
+}
+.service-main__list__item-content__img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  pointer-events: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 143, 236, 0)), to(#248FEC)), lightgray 50%/cover no-repeat;
+  background: -o-linear-gradient(top, rgba(36, 143, 236, 0) 0%, #248FEC 100%), lightgray 50%/cover no-repeat;
+  background: linear-gradient(180deg, rgba(36, 143, 236, 0) 0%, #248FEC 100%), lightgray 50%/cover no-repeat;
+}
+.service-main__list__item-content__text {
+  left: 20px;
+  bottom: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  position: absolute;
+}
+.service-registration__video-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  margin: 70px 0 40px;
+}
+.service-registration__form-container {
+  margin: 40px 0 50px;
+}
+.service__maintenance-benifit {
+  margin: 50px 0 50px;
+}
+.service__maintenance-form-container {
+  margin-top: 50px;
+}
+.service__maintenance-collapse {
+  gap: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__maintenance-collapse__content {
+  overflow: hidden;
+  max-height: 290px;
+  -webkit-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
+}
+.service__benefit-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.service__benefit-container--column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__benifit-content {
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__list-benefit {
+  gap: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__list-benefit__item {
+  gap: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.service__list-benefit__item-img {
+  margin-top: 3px;
+  width: 18px;
+  height: 18px;
+}
+.service__list-benefit__item-text {
+  width: 480px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.service__finansial-credit-first-block {
+  margin: 20px 0 50px;
+}
+.service__finansial-credit-second-block, .service__finansial-credit-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service__finansial-credit-second-block {
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.service__finansial-credit-description {
+  gap: 8px;
+}
+.service-car-rental__first-block, .service-car-rental__second-block, .service-car-rental__third-block {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.service-car-rental__first-block {
+  margin: 30px 0 50px;
+}
+.service-car-rental__first-block__content {
+  max-height: 138px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
+  transition: max-height 0.5s ease;
+}
+.service-car-rental__third-block {
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.service__form {
+  color: #FFF;
+  padding: 40px;
+  border-radius: 8px;
+  background: var(--gradient, linear-gradient(48deg, #2775B8 0%, #44A8FF 100%));
+}
+.service__form-btn {
+  border: 1px solid #FFF;
+  padding: 15px 24px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.service__form-btn svg {
+  margin-right: 5px;
+}
+.service__form-btn:hover {
+  border: 1px solid transparent;
+  color: #2775B8;
+  background-color: #fff;
+}
+.service__form-btn:hover path {
+  stroke: #2775B8;
+}
+.service__form-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 5px;
+}
+.service__form-subtitle {
+  width: 633px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.service__form-items {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 25px;
+}
+.service__form-items__input {
+  outline: none;
+  width: 500px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #969696;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 17px 20px;
+  background: #FFF;
+  border: 1px solid #DFDFDF;
+}
+.service__form-items__input::-webkit-input-placeholder {
+  color: #969696;
+}
+.service__form-items__input::-moz-placeholder {
+  color: #969696;
+}
+.service__form-items__input:-ms-input-placeholder {
+  color: #969696;
+}
+.service__form-items__input::-ms-input-placeholder {
+  color: #969696;
+}
+.service__form-items__input::placeholder {
+  color: #969696;
+}
+.service__form-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.service__form-footer__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.service__form-footer__checkbox input {
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+}
+.service__form-footer__description {
+  display: block;
+  width: 633px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.service__form-footer__button {
+  padding: 18px 0;
+  width: 222px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  border-radius: 4px;
+  background: var(--yellow, #FBE200);
+}
+.service__callback {
+  color: #ffffff;
+  padding: 30px 48px;
+  border-radius: 8px;
+  background: var(--gradient, linear-gradient(48deg, #2775B8 0%, #44A8FF 100%));
+  margin-bottom: 40px;
+}
+.service__callback-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+.service__callback-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.service__callback-button {
+  gap: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000000;
+  padding: 19px 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: var(--yellow, #FBE200);
+  margin-top: 20px;
+}
+.service__submain-content__info-centers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 79px;
+}
+.service__submain-content__info-centers__title {
+  width: 100%;
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 25px;
+}
+.service__submain-content__info-centers__list {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 14px 20px;
+  margin-bottom: 41px;
+}
+.service__submain-content__info-centers__list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.service__submain-content__info-centers__list__item-img {
+  margin-right: 6px;
+}
+.service__submain-content__info-centers__list__item-info__title {
+  color: var(--black, #232323);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 2px;
+}
+.service__submain-content__info-centers__list__item-info__subtitle {
+  color: var(--sub-black-text, #575757);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+}
+.service__submain-content__info-centers__button {
+  border-radius: 4px;
+  background: var(--main-blue, #248FEC);
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 13px 53px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.service__submain-content__info-centers__button:hover {
+  background: var(--yellow, #FBE200);
+  color: var(--black, #232323);
+}
+.service-howWork .wrapper__title-medium {
+  margin-bottom: 42px;
+}
+.service-howWork__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 120px;
+  grid-row-gap: 40px;
+}
+.service-howWork__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.service-howWork__item-number {
+  margin-right: 20px;
+}
+.service-howWork__item-icon {
+  margin-right: 15px;
+}
+.service-howWork__item-description {
+  width: 345px;
+  color: var(--black, #232323);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.service-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.service-lists .service__benifit-content {
+  width: 800px;
+}
+
+.selectionByParameters {
+  margin-top: 52px;
+}
+.selectionByParameters .wrapper__title-large {
+  margin-bottom: 30px;
+  color: var(--black, #232323);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.selectionByParameters__form {
+  margin-bottom: 50px;
+}
+.selectionByParameters__form .filter-form__container__select {
+  width: 366px;
+}
+.selectionByParameters__form .filter-form__container__input {
+  width: 142px;
+}
+.selectionByParameters__form .filter-form__buttons {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.selectionByParameters .carsGrid__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+}
+.selectionByParameters .carsGrid__item {
+  width: auto;
+}
+.selectionByParameters .carsGrid__item-title {
+  font-size: 15px;
+}
+.selectionByParameters .carsGrid__item-description {
+  font-size: 12px;
+}
+.selectionByParameters .carsGrid__item-top_info {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.selectionByParameters .carsGrid__item-top_slider img {
+  width: 100%;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.selectionByParameters .carsGrid__item-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.selectionByParameters .carsGrid__item-bottom_right {
+  width: 238px;
+}
+.selectionByParameters .carsGrid__item-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0;
+}
+
+@media (max-width: 480px) {
+  .service__video-container {
+    margin-top: 40px;
+  }
+  .service__video-content {
+    width: 100%;
+    height: 594px;
+    padding: 30px 0 10px;
+  }
+  .service__wrapper {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service-main {
+    margin: 20px auto 40px !important;
+  }
+  .service-main__list {
+    gap: 15px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 25px;
+  }
+  .service-main__list__item {
+    width: 100%;
+  }
+  .service-main__list__item-content {
+    color: #ffffff;
+    position: relative;
+  }
+  .service-main__list__item-content__img {
+    width: 345px;
+    height: 200px;
+  }
+  .service-main__list__item-content__text {
+    left: 20px;
+    bottom: 20px;
+  }
+  .service__main-content {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .service__main-content__img {
+    width: 345px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  .service__main-content__title-large {
+    font-size: 30px;
+    line-height: 40x;
+  }
+  .service__main-content__title-medium {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .service__main-content__subtitle {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .service__main-content__form {
+    margin: 25px auto 40px;
+    padding: 25px;
+    border-radius: 4px;
+  }
+  .service__main-content__form-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .service__main-content__form-subtitle {
+    width: 100%;
+    line-height: 22px;
+  }
+  .service__main-content__form-items {
+    gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 25px auto 20px;
+  }
+  .service__main-content__form-items__input {
+    width: 265px;
+    padding: 17px 15px;
+  }
+  .service__main-content__form-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service__main-content__form-footer__description {
+    width: 100%;
+  }
+  .service__main-content__form-footer__button {
+    display: block;
+    margin: 30px auto 0;
+  }
+  .service__benefit-container {
+    gap: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 15px;
+  }
+  .service__list-benefit {
+    gap: 10px;
+  }
+  .service__list-benefit__item {
+    gap: 6px;
+  }
+  .service__list-benefit__item-text {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .service__callback {
+    display: none;
+  }
+}
+.accordion__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 22px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+.accordion__header::after {
+  content: "";
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  background-size: 1.25rem;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  -o-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  background-image: url(../../images/service/arrow.svg);
+}
+.accordion__header:hover::after {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+.accordion__content {
+  cursor: default;
+  padding: 24px 20px 30px;
+  background: #ffffff;
+}
+.accordion__content__list {
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.accordion__content__list__item {
+  width: 300px;
+}
+.accordion__content__list__item-title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #000000;
+}
+.accordion__content__list__item-subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #575757;
+}
+.accordion__content__list__item-link:hover .accordion__content__list__item-title {
+  color: #248FEC;
+}
+
+.accordion__item_show .accordion__header::after,
+.accordion__item_slidedown .accordion__header::after {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.accordion__item:not(.accordion__item_show) .accordion__body {
+  display: none;
 }
 
 .header {
@@ -3617,6 +4355,138 @@ h6.news__single__title {
     margin-bottom: 40px;
   }
 }
+.carDealerships .wrapper__header {
+  margin-bottom: 34px;
+}
+.carDealerships__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.carDealerships__item {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #F4F4F4;
+  -webkit-box-shadow: 0px 14px 90px 0px rgba(0, 0, 0, 0.06);
+          box-shadow: 0px 14px 90px 0px rgba(0, 0, 0, 0.06);
+}
+.carDealerships__item-img {
+  width: 100%;
+  height: 309px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carDealerships__item-info {
+  padding: 20px 30px 50px 30px;
+  background: #FFF;
+}
+.carDealerships__item-city {
+  color: var(--main-blue, #248FEC);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 2px;
+}
+.carDealerships__item-title {
+  color: var(--black, #232323);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  display: block;
+}
+.carDealerships__item-title:hover {
+  color: var(--main-blue, #248FEC);
+}
+.carDealerships__item-address {
+  color: var(--sub-black-text, #575757);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.carDealerships__item-hours {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.carDealerships__item-workHours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.carDealerships__item-workHours_title {
+  color: var(--sub-black-text, #575757);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-right: 5px;
+}
+.carDealerships__item-workHours_time {
+  color: var(--black, #232323);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.carDealerships__item-workHours:first-child {
+  margin-right: 30px;
+}
+.carDealerships__item-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+.carDealerships__item-phone_icon {
+  margin-right: 8px;
+}
+.carDealerships__item-phone_tel {
+  color: var(--black, #232323);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.carDealerships__item-phone_tel:hover {
+  color: var(--main-blue, #248FEC);
+}
+.carDealerships__item-btn {
+  border: 1px solid transparent;
+  text-align: center;
+  display: block;
+  border-radius: 8px;
+  background: var(--main-blue, #248FEC);
+  -webkit-box-shadow: 0px 14px 24px 0px rgba(36, 143, 236, 0.18);
+          box-shadow: 0px 14px 24px 0px rgba(36, 143, 236, 0.18);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 18px 0;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 331px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+}
+.carDealerships__item-btn:hover {
+  border: 1px solid #248FEC;
+  background: transparent;
+  color: #248FEC;
+}
+
 .model {
   margin-top: 50px;
 }

@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/images/logoBlue.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MARCAR</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            @@include('../blocks/common/header/header.html')
+            <!-- /.header -->
+
+            @@include('../blocks/common/sidebar/sidebar.html')
+            <!-- /.sidebar -->
+
+            <div class="container">
+                <section class="wrapper__container taxiRentPage">
+                    <div class="wrapper__left-block">
+                        <img class="service__main-img" src="/images/service/taxiRent.svg" alt="">
+        
+                        <div class="wrapper__top-block">
+                            <h1 class="wrapper__title-large">Аренда авто для такси</h1>
+                            <p class="wrapper__subtitle">
+                                Выбирайте авто из 928 вариантов в аренду и начинайте работать уже через несколько часов!
+                            </p>
+                        </div>
+        
+                        <div class="service-lists">
+                            <div class="service__benifit-content">
+                                <h2 class="wrapper__title-medium"><span>Преимущества</span> аренды</h2>
+                                <div class="service__benefit-container service__benefit-container--column">
+                                    <ul class="service__list-benefit">
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/service/checkmark.svg"
+                                                alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Оформление за 2 часа
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/service/checkmark.svg"
+                                                alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Никаких скрытых платежей
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/service/checkmark.svg"
+                                                alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Не требуется сервисное обслуживание
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/service/checkmark.svg"
+                                                alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Отличное техническое состояние
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/service/checkmark.svg"
+                                                alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Никаких скрытых платежей
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/service/checkmark.svg"
+                                                alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Не требуется сервисное обслуживание
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <button id="btn-read-more-service" class="btn-read-more btn-read-more-color">
+                                        <span>Показать больше</span>
+                                        <img class="btn-read-more__img" src="/images/collapse.svg" alt="">
+                                    </button>
+                                    <button id="btn-collapse-service" class="btn-collapse btn-read-more-color">
+                                        <span>Свернуть</span>
+                                        <img class="btn-collapse__img" src="/images/collapse.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="service__benifit-content">
+                                <h2 class="wrapper__title-medium"><span>Условия</span> аренды</h2>
+                                <div class="service__benefit-container service__benefit-container-2 service__benefit-container--column">
+                                    <ul class="service__list-benefit service__list-benefit-2">
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/icons/plus.svg" alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Возраст свыше 25 лет
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/icons/plus.svg" alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Медицинская справка о состоянии здоровья
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/icons/plus.svg" alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                минимальный список документов для подачи заявки в банк
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/icons/plus.svg" alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Водительское удостоверение
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/icons/plus.svg" alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                Медицинская справка о состоянии здоровья
+                                            </p>
+                                        </li>
+                                        <li class="service__list-benefit__item">
+                                            <img class="service__list-benefit__item-img" src="/images/icons/plus.svg" alt="">
+                                            <p class="service__list-benefit__item-text">
+                                                минимальный список документов для подачи заявки в банк
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <button id="btn-read-more-service-2" class="btn-read-more btn-read-more-color">
+                                        <span>Показать больше</span>
+                                        <img class="btn-read-more__img" src="/images/collapse.svg" alt="">
+                                    </button>
+                                    <button id="btn-collapse-service-2" class="btn-collapse btn-read-more-color">
+                                        <span>Свернуть</span>
+                                        <img class="btn-collapse__img" src="/images/collapse.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+        
+                        <div class="selectionByParameters">
+                            <div class="selectionByParameters__form">
+                                <form action="" class="filter-form">
+                                    <div class="filter-form__container">
+                                        <select name="" id="" class="filter-form__container__select">
+                                            <option value="">Марка автомобиля</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                        <select name="" id="" class="filter-form__container__select">
+                                            <option value="">Модель автомобиля</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                        <select name="" id="" class="filter-form__container__select">
+                                            <option value="">Тип кузова</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                        <select name="" id="" class="filter-form__container__select">
+                                            <option value="">Коробка передач</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                        <select name="" id="" class="filter-form__container__select">
+                                            <option value="">Тип привода</option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                            <option value=""></option>
+                                        </select>
+                                        <input type="text" class="filter-form__container__input" placeholder="Цена от">
+                                        <input type="text" class="filter-form__container__input" placeholder="Цена до">
+                                        <input type="text" class="filter-form__container__input" placeholder="Объем от">
+                                        <input type="text" class="filter-form__container__input" placeholder="Объем до">
+                                    </div>
+                                    <div class="filter-form__buttons">
+                                        <div class="filter-form__buttons-settings">
+                                            <button class="filter-form__buttons-settings__button">
+                                                <img src="/images/all-params.svg" alt=""
+                                                    class="filter-form__buttons-settings__button-img">
+                                                <p class="filter-form__buttons-settings__button-text">Все параметры</p>
+                                            </button>
+                                            <button class="filter-form__buttons-settings__button">
+                                                <img src="/images/close.svg" alt=""
+                                                    class="filter-form__buttons-settings__button-img">
+                                                <p class="filter-form__buttons-settings__button-text">Сбросить</p>
+                                            </button>
+                                        </div>
+                                        <button class="filter-form__buttons-btn-show">Показать 1495 вариатов</button>
+                                    </div>
+                                </form>
+                            </div>
+        
+                            <ul class="pagination-list selectionByParameters__list carsGrid__list">
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+                                <li class="pagination-list__item selectionByParameters__item carsGrid__item">
+                                    <div class="carsGrid__item-top">
+                                        <div class="carsGrid__item-top_info">
+                                            <div class="carsGrid__item-top_buttons">
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--comparison">
+                                                    <img src="/images/icons/compare.svg" alt="">
+                                                </button>
+                                                <button class="carsGrid__item-top_button carsGrid__item-top_button--favorites">
+                                                    <img src="/images/icons/favourites.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="carsGrid__item-top_slider">
+
+                                            <div class="itc-slider" data-slider="itc-slider">
+                                                <div class="itc-slider-wrapper">
+                                                    <div class="itc-slider-items">
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                        <div class="itc-slider-item">
+                                                            <img src="/images/carsGrid/IMG_1193_resize 1.svg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="itc-slider-indicators">
+                                                        <li class="itc-slider-indicator" data-slide-to="0"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="1"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="2"></li>
+                                                        <li class="itc-slider-indicator" data-slide-to="3"></li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-bottom">
+                                        <div class="carsGrid__item-bottom_right">
+                                            <a class="carsGrid__item-title" href="">Audi A4/S4 (B9) 2.0TP/150 7RT</a>
+                                            <p class="carsGrid__item-description">
+                                                Cедан, 2019, 1.5 л, бензин
+                                            </p>
+                                        </div>
+                                        <div class="carsGrid__item-price">
+                                            <p class="carsGrid__item-price_description">
+                                                Стоимость от
+                                            </p>
+                                            <div class="carsGrid__item-newPrice">
+                                                <span class="carsGrid__item-newPrice_digit">
+                                                    1 240
+                                                </span>
+                                                <span class="carsGrid__item-newPrice_currency">
+                                                    ₽
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carsGrid__item-btns">
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--grey">
+                                            Показать тарифы
+                                        </button>
+                                        <button class="carsGrid__item-btns_btn carsGrid__item-btns_btn--blue">
+                                            Арендовать
+                                        </button>
+                                    </div>
+                                </li>
+        
+                            </ul>
+        
+                            <div class="pagination"></div>
+        
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="carDealerships">
+                    <div class="wrapper__header">
+                        <p class="wrapper__header-title">Автосалоны</p>
+                    </div>
+                    <ul class="carDealerships__list">
+                        <li class="carDealerships__item">
+                            <img class="carDealerships__item-img" src="/images/dealerships.svg" alt="">
+                            <div class="carDealerships__item-info">
+                                <span class="carDealerships__item-city">
+                                    Санкт-петербург
+                                </span>
+                                <a class="carDealerships__item-title">
+                                    Название автосалона
+                                </a>
+                                <p class="carDealerships__item-address">
+                                    Адрес автосалона
+                                </p>
+                                <div class="carDealerships__item-hours">
+                                    <div class="carDealerships__item-workHours">
+                                        <h4 class="carDealerships__item-workHours_title">
+                                            Режим работы:
+                                        </h4>
+                                        <p class="carDealerships__item-workHours_time">
+                                            08:00 - 21:00
+                                        </p>
+                                    </div>
+                                    <div class="carDealerships__item-workHours">
+                                        <h4 class="carDealerships__item-workHours_title">
+                                            Отдел продаж:
+                                        </h4>
+                                        <p class="carDealerships__item-workHours_time">
+                                            10:00 - 21:00
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="carDealerships__item-phone">
+                                    <img class="carDealerships__item-phone_icon" src="/images/phoneBlue.svg" alt="">
+                                    <a class="carDealerships__item-phone_tel" href="tel:+8 495 248-14-80">8 (495) 248-14-80</a>
+                                </div>
+                                <a class="carDealerships__item-btn" href="">
+                                    Заказать звонок
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+    
+            @@include('../blocks/common/promotions/promotions.html')
+            <!-- /.promotions -->
+    
+            @@include('../blocks/common/seo-info/seo-info.html')
+            <!-- /.seo-info -->
+
+            @@include('../blocks/common/footer/footer.html')
+            <!-- /.footer -->
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+    <script src="/js/sliders/itc-slider.js"></script>
+    <script src="/js/pagination.js"></script>
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>
