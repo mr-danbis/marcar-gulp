@@ -7,9 +7,9 @@
 @import 'settings/common/itc-slider';
 
 //common blocks
-@import '../blocks/header/header';
-@import '../blocks/footer/footer';
-@import '../blocks/sidebar/sidebar';
+@import '../blocks/common/header/header';
+@import '../blocks/common/footer/footer';
+@import '../blocks/common/sidebar/sidebar';
 
 //main page blocks
 @import '../blocks/pages/homePage/model/model';
@@ -24,5 +24,5 @@
 @import '../blocks/pages/homePage/video-reviews/video-reviews';
 
 //login page blocks
-@import '../blocks/pages/systemPage/login/login';
-@import '../blocks/pages/systemPage/sms/sms';
+@import '../blocks/pages/accountPage/login/login';
+@import '../blocks/pages/accountPage/sms/sms';
