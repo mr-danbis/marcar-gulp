@@ -17,6 +17,7 @@
 @import '../blocks/common/new-products/new-products';
 @import '../blocks/common/promotions/promotions';
 @import '../blocks/common/seo-info/seo-info';
+@import '../blocks/common/additional-nav/additional-nav';
 
 //main page blocks
 @import '../blocks/pages/homePage/model/model';
@@ -31,3 +32,6 @@
 //account page blocks
 @import '../blocks/pages/accountPage/login/login';
 @import '../blocks/pages/accountPage/sms/sms';
+
+//about page blocks
+@import '../blocks/pages/aboutPage/about';
