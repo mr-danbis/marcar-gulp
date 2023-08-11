@@ -5,11 +5,15 @@
 @import 'settings/global';
 @import 'settings/common/carsGrid';
 @import 'settings/common/itc-slider';
+@import 'settings/common/newsList';
 
 //common blocks
 @import '../blocks/common/header/header';
 @import '../blocks/common/footer/footer';
 @import '../blocks/common/sidebar/sidebar';
+
+@import '../blocks/common/new-products/new-products';
+@import '../blocks/common/promotions/promotions';
 
 //main page blocks
 @import '../blocks/pages/homePage/model/model';
@@ -18,11 +22,9 @@
 @import '../blocks/pages/homePage/taxiCars/taxiCars';
 @import '../blocks/pages/homePage/recommended/recommended';
 @import '../blocks/pages/homePage/services/services';
-@import '../blocks/pages/homePage/new-products/new-products';
-@import '../blocks/pages/homePage/promotions/promotions';
 @import '../blocks/pages/homePage/feedback/feedback';
 @import '../blocks/pages/homePage/video-reviews/video-reviews';
 
-//login page blocks
+//account page blocks
 @import '../blocks/pages/accountPage/login/login';
 @import '../blocks/pages/accountPage/sms/sms';
