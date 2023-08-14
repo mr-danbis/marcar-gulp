@@ -731,3 +731,82 @@
         }
     }
 }
+
+@media (max-width: 480px) {
+    .navigation{
+        &-sublist{
+            box-shadow: none;
+            &-group{
+                position: static;
+                width: 100%;
+                padding-top: 0;
+            }
+            &__item{
+                padding: 14px 0;
+                &:first-child{
+                    padding-top: 0;
+                }
+                &:last-child{
+                    padding-bottom: 0;
+                }
+                &-link{
+                    font-size: 16px;
+                }
+                .icon-arrow{
+                    margin-left: auto;
+                }
+
+                &-content{
+                    position: static;
+                    width: 100%;
+                    min-height: auto;
+                    padding: 0;
+                    box-shadow: none;
+                    &_top{
+                        flex-direction: column;
+                    }
+                    &_btn{
+                        width: 100%;
+                        &:not(:last-child){
+                            margin-right: 0;
+                        }
+                        &:first-child{
+                            margin-bottom: 5px;
+                        }
+                        h4{
+                            font-size: 13px;
+                        }
+                        &:hover{
+                            transform: scale(1);
+                        }
+                    }
+                    &_cars{
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-gap: 9px;
+                        &-item{
+                            border-radius: 2px;
+                            background: #FBFBFB;
+                            padding: 10px 14px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+        &-list{
+            &__item{
+                .header__bottom__link-dropdown{
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: space-between;
+                }
+                &:hover .navigation-sublist-group{
+                    display: none;
+                }
+            }
+        }
+    }
+}
