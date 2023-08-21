@@ -1,5 +1,5 @@
 .sidebar {
-    display: none;
+    // display: none;
 
     position: fixed;
     top: 0;
@@ -15,6 +15,26 @@
     &__wrapper {
         width: 92%;
         margin: auto;
+    }
+
+    &__back {
+        display: none;
+        padding: 13px 0;
+        border-bottom: 1px solid #F1F1F1;
+        margin-bottom: 15px;
+        &-btn{
+            color: var(--sub-black-text, #575757);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 14px;
+            padding-left: 18px;
+            position: relative;
+            &::before{
+                position: absolute;
+                left: 0;
+                content: url(../../../images/icons/arrow-black.svg);
+            }
+        }
     }
 
     &__top {
@@ -67,7 +87,7 @@
                         padding-top: 14px;
                     }
 
-                    &__icon{
+                    &__icon {
                         transform: rotate(-90deg);
                     }
 
