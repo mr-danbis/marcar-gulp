@@ -9,32 +9,23 @@
     <title>MARCAR</title>
 </head>
 
-
 <body>
-    <div class="wrapper">
+    @@include('../blocks/common/header/header.html')
+    <!-- /.header -->
 
-        @@include('../blocks/common/header/header.html')
-        <!-- /.header -->
+    @@include('../blocks/common/sidebar/sidebar.html')
+    <!-- /.sidebar -->
 
-        @@include('../blocks/common/sidebar/sidebar.html')
-        <!-- /.sidebar -->
+    <main class="main">
+        @@include('../blocks/pages/account/sms/sms.html')
+        <!-- /.sms -->
+    </main>
+    <!-- /.main -->
 
-        <main class="main">
-            @@include('../blocks/pages/accountPage/sms/sms.html')
-            <!-- /.sms -->
-        </main>
-        <!-- /.main -->
-
-
-        @@include('../blocks/common/footer/footer.html')
-        <!-- /.footer -->
-
-    </div>
-    <!-- /.wrapper -->
-
+    @@include('../blocks/common/footer/footer.html')
+    <!-- /.footer -->
 
     <script src="/js/main.js"></script>
-
 </body>
 
 </html>

@@ -52,7 +52,6 @@ function browsersync() {
     server: {
       baseDir: "app/",
     },
-    browser: '/Applications/Google Chrome.app',
   });
 }
 

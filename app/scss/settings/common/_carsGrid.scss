@@ -21,7 +21,7 @@
 
         &:hover {
             background-color: #248fec;
-            color: #fff;
+            color: $white;
         }
     }
 
@@ -45,7 +45,7 @@
             &_button {
                 padding: 8px;
                 border-radius: 50%;
-                background-color: #FFF;
+                background-color: $white;
                 width: 32px;
                 height: 32px;
                 transition: all .3s;
@@ -99,7 +99,7 @@
 
         &-labelNew {
             background: #248FEC;
-            color: #FFF;
+            color: $white;
         }
 
         &-labelDiscount {
@@ -226,7 +226,7 @@
                     font-weight: 400;
                 }
                 &--blue{
-                    color: #FFF;
+                    color: $white;
                     background: var(--main-blue, #248FEC);
                     font-weight: 500;
                 }
