@@ -166,15 +166,15 @@
     }
 
     &__form {
-        color: #FFF;
+        color: $white;
         padding: 40px;
         border-radius: 8px;
         background: var(--gradient, linear-gradient(48deg, #2775B8 0%, #44A8FF 100%));
 
         &-btn {
-            border: 1px solid #FFF;
+            border: 1px solid $white;
             padding: 15px 24px;
-            color: #FFF;
+            color: $white;
             font-size: 14px;
             font-weight: 400;
             line-height: 24px;
@@ -191,7 +191,7 @@
             &:hover {
                 border: 1px solid transparent;
                 color: #2775B8;
-                background-color: #fff;
+                background-color: $white;
 
                 path {
                     stroke: #2775B8;
@@ -228,7 +228,7 @@
                 font-weight: 400;
                 line-height: 16px;
                 padding: 17px 20px;
-                background: #FFF;
+                background: $white;
                 border: 1px solid #DFDFDF;
 
                 &::placeholder {
@@ -255,7 +255,7 @@
             &__description {
                 display: block;
                 width: 633px;
-                color: #FFF;
+                color: $white;
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 18px;
@@ -364,7 +364,7 @@
             &__button {
                 border-radius: 4px;
                 background: var(--main-blue, #248FEC);
-                color: #FFF;
+                color: $white;
                 font-size: 14px;
                 font-weight: 500;
                 line-height: 24px;
@@ -617,40 +617,6 @@
                 }
             }
         }
-
-        // &__submain-content {
-        //     width: 100%;
-        //     &__callback {
-        //         display: none;
-        //     }
-        //     &__info-centers {
-        //         margin-top: 20px;
-        //         padding: 40px 0;
-        //         &__title {
-        //             font-size: 26px;
-        //             line-height: 36px;
-        //         }
-        //         &__list {
-        //             width: 100%; 
-        //             gap: 9px;
-        //             &__item {
-        //                 width: 160px;
-        //             }
-        //         }
-        //         &__button {
-        //             color: #FFF;
-        //             width: 100%;
-        //             display: block;
-        //             padding: 13px 0;
-        //             margin: 41px auto 0;
-        //             font-size: 14px;
-        //             font-weight: 500;
-        //             line-height: 24px;
-        //             border-radius: 4px;
-        //             background: var(--main-blue, #248FEC);
-        //         }
-        //     }
-        // }
         &__benefit-container {
             gap: 0;
             flex-direction: column;

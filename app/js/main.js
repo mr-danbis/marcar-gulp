@@ -159,9 +159,11 @@ const toggleSubMenu = () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    videPlayer(".service__video-content", ".video");
-    videPlayer(".about-video-content", ".video");
-    handleToggleText('.seo-info__content', '.seo-info__subtitle', '#btn-read-more-seo', '#btn-collapse-seo', '208px');
+    //call function videoPlayer
+    videPlayer(".video__container", ".video");
+
+    //call fuction handleToggleText
+    handleToggleText('.seo-block__content', '.seo-block__subtitle', '#btn-read-more-seo', '#btn-collapse-seo', '208px');
     handleToggleText('.service__maintenance-collapse__container', '.service__maintenance-collapse__content', '#btn-read-more-service', '#btn-collapse-service', '290px');
     handleToggleText('.service__benefit-container', '.service__list-benefit', '#btn-read-more-service', '#btn-collapse-service', '138px');
     handleToggleText('.service__benefit-container-2', '.service__list-benefit-2', '#btn-read-more-service-2', '#btn-collapse-service-2', '138px');

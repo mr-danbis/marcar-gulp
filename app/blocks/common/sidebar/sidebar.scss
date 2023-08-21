@@ -7,7 +7,7 @@
     right: 0;
     left: 0;
     z-index: 100;
-    background-color: #fff;
+    background-color: $white;
     padding-top: 9px;
     padding-bottom: 26px;
     overflow-y: scroll;
@@ -108,7 +108,7 @@
         }
 
         &-btn {
-            color: #FFF;
+            color: $white;
             font-size: 15px;
             font-weight: 400;
             line-height: 24px;
@@ -141,7 +141,7 @@
         }
     }
 
-    &__close-btn {
-        background-color: #FFF;
+    &__close-btn{
+        background-color: $white;
     }
 }

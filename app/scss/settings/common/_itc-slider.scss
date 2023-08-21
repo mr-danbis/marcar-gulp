@@ -66,7 +66,7 @@
     }
 
     &__title {
-        color: #FFF;
+        color: $white;
         font-size: 37px;
         font-weight: 700;
         line-height: 47px;
@@ -74,7 +74,7 @@
     }
 
     &__subtitle {
-        color: #FFF;
+        color: $white;
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
@@ -147,7 +147,7 @@
     margin-right: 4px;
     margin-left: 4px;
     text-indent: -999px;
-    background-color: #FFF;
+    background-color: $white;
     background-clip: padding-box;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;

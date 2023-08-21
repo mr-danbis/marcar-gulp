@@ -94,7 +94,7 @@
                 top: -100%;
                 left: 50%;
                 transform: translate(-50%, 0);
-                background-color: #ffffff;
+                background-color: $white;
                 padding: 40px;
                 width: 760px;
                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -148,7 +148,7 @@
                 border: 0;
                 padding: 8px;
                 border-radius: 36px;
-                background: #FFF;
+                background: $white;
                 box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.08);
                 margin-right: 8px;
 
@@ -173,7 +173,7 @@
                 }
 
                 &__text {
-                    color: #FFF;
+                    color: $white;
                     font-size: 13px;
                     font-weight: 600;
                     line-height: 13px;
@@ -221,7 +221,7 @@
                 &-btn {
                     padding: 8px;
                     border-radius: 36px;
-                    background: #FFF;
+                    background: $white;
                     box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.08);
                 }
             }
@@ -258,7 +258,7 @@
     width: 760px;
     border-radius: 8px;
     transition: top 0.3s ease;
-    background-color: #ffffff;
+    background-color: $white;
     transform: translate(-50%, 0);
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 
@@ -373,7 +373,7 @@
             justify-content: space-between;
 
             &_more {
-                color: #FFF;
+                color: $white;
                 font-size: 13px;
                 font-weight: 700;
                 line-height: 13px;
@@ -399,7 +399,7 @@
             }
 
             &_new {
-                color: #FFF;
+                color: $white;
                 font-size: 10px;
                 font-weight: 600;
                 line-height: 12px;
@@ -522,7 +522,7 @@
         &__item {
             padding: 14px 24px;
             display: flex;
-            background-color: #fff;
+            background-color: $white;
             align-items: center;
             padding: 14px 24px;
 
@@ -586,7 +586,7 @@
                 padding: 30px 40px;
                 box-sizing: border-box;
                 border-radius: 0px 0px 8px 8px;
-                background: #FFF;
+                background: $white;
                 box-shadow: 0px 34px 90px 0px rgba(0, 0, 0, 0.10);
 
                 &_top {
@@ -612,7 +612,7 @@
 
                         h4,
                         p {
-                            color: #FFF;
+                            color: $white;
                         }
                     }
 

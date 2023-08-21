@@ -2,33 +2,30 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/images/logoBlue.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/images/logoBlue.svg">
     <link rel="stylesheet" href="css/style.css">
 
     <title>MARCAR</title>
 </head>
 <body>
-    <div class="wrapper">
-        @@include('../blocks/common/header/header.html')
-        <!-- /.header -->
+    @@include('../blocks/common/header/header.html')
+    <!-- /.header -->
 
-        @@include('../blocks/common/sidebar/sidebar.html')
-        <!-- /.sidebar -->
+    @@include('../blocks/common/sidebar/sidebar.html')
+    <!-- /.sidebar -->
 
-        <main class="main">
-            <div class="container">
-                <div class="not-found">
-                    <img src="/images/icons/404.svg" alt="" class="not-found__img">
-                    <h1 class="not-found__title">К сожалению такой страницы не существует</h1>
-                    <a href="/index.html" class="not-found__link">На главную</a>
-                </div>
-            </div>
-        </main>
+    <main class="main">
+        <div class="not-found">
+            <img src="../images/icons/default/404.svg" alt="" class="not-found__img">
+            <p class="not-found__title">К сожалению такой страницы не существует</p>
+            <a href="index.html" class="not-found__link">На главную</a>
+        </div>
+    </main>
 
-        @@include('../blocks/common/footer/footer.html')
-        <!-- /.footer -->
-    </div>
+    @@include('../blocks/common/footer/footer.html')
+    <!-- /.footer -->
 
     <script src="/js/main.js"></script>
 </body>
