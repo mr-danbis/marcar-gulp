@@ -348,6 +348,7 @@ body {
   border-radius: 4px;
   background-color: #FBE200;
   -webkit-transition: color 0.5s ease, background-color 0.5s ease;
+  -o-transition: color 0.5s ease, background-color 0.5s ease;
   transition: color 0.5s ease, background-color 0.5s ease;
 }
 .block-title__link-light, .block-title__link-dark {
@@ -367,6 +368,7 @@ body {
 .block-title__link-light {
   -webkit-transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
   transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
+  -o-transition: background-color 0.5s ease, box-shadow 0.5s ease;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
   transition: background-color 0.5s ease, box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease;
 }
@@ -414,6 +416,7 @@ body {
   border-radius: 8px;
   background-color: #248FEC;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .link-see-more:hover {
@@ -437,6 +440,7 @@ body {
   border-radius: 4px;
   background-color: #FAFAFA;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .tabs__item:hover {
@@ -527,6 +531,7 @@ body {
   width: 32px;
   height: 32px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .cars-card__btn:not(:last-child) {
@@ -660,6 +665,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
 .block-contact:hover {
@@ -824,6 +830,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
 .block-contact:hover {
@@ -876,6 +883,7 @@ body {
   max-height: 138px;
   overflow: hidden;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -883,6 +891,7 @@ body {
   max-height: 138px;
   overflow: hidden;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -927,7 +936,8 @@ body {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
   -webkit-box-orient: vertical;
 }
 .main-cards__title {
@@ -1067,6 +1077,7 @@ body {
   border-radius: 4px;
   pointer-events: none;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(36, 143, 236, 0)), to(#248FEC)), lightgray 50%/cover no-repeat;
+  background: -o-linear-gradient(top, rgba(36, 143, 236, 0) 0%, #248FEC 100%), lightgray 50%/cover no-repeat;
   background: linear-gradient(180deg, rgba(36, 143, 236, 0) 0%, #248FEC 100%), lightgray 50%/cover no-repeat;
 }
 .service-main__list__item-content__text {
@@ -1111,6 +1122,7 @@ body {
   overflow: hidden;
   max-height: 290px;
   -webkit-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
   transition: max-height 0.5s ease;
 }
 .service__benefit-container {
@@ -1198,6 +1210,7 @@ body {
   max-height: 138px;
   overflow: hidden;
   -webkit-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
   transition: max-height 0.5s ease;
 }
 .service-car-rental__third-block {
@@ -1224,6 +1237,7 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .service__form-btn svg {
@@ -1421,6 +1435,7 @@ body {
   line-height: 24px;
   padding: 13px 53px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .service__submain-content__info-centers__button:hover {
@@ -2088,6 +2103,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .slider-gallery__list-item {
@@ -2262,6 +2278,7 @@ body {
   font-weight: 600;
   line-height: 14px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .carsGrid__btn-seeMore:hover {
@@ -2297,6 +2314,7 @@ body {
   width: 32px;
   height: 32px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .carsGrid__item-top_button:not(:last-child) {
@@ -2351,6 +2369,7 @@ body {
   font-weight: 700;
   line-height: 30px;
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .carsGrid__item-title:hover {
@@ -2550,6 +2569,7 @@ body {
           justify-content: space-between;
   background-color: transparent;
   -webkit-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
 }
 .accordion__header::after {
@@ -2563,6 +2583,7 @@ body {
   background-repeat: no-repeat;
   -webkit-transition: -webkit-transform 0.2s ease-out;
   transition: -webkit-transform 0.2s ease-out;
+  -o-transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
   background-image: url(../../images/service/arrow.svg);
@@ -2652,6 +2673,7 @@ body {
   display: flex;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   will-change: transform;
@@ -2659,6 +2681,7 @@ body {
 
 .itc-slider-transition-none {
   -webkit-transition: none;
+  -o-transition: none;
   transition: none;
 }
 
@@ -2931,6 +2954,7 @@ body {
   border-radius: 4px;
   background-color: #FBFBFB;
   -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
 .additional-nav__list__item-content {
@@ -2950,6 +2974,7 @@ body {
 .additional-nav__list__item-content-svg path {
   fill: #248FEC;
   -webkit-transition: fill 0.5s ease;
+  -o-transition: fill 0.5s ease;
   transition: fill 0.5s ease;
 }
 .additional-nav__list__item-content-text {
@@ -2958,6 +2983,7 @@ body {
   font-weight: 700;
   line-height: 24px;
   -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
 }
 .additional-nav__list__item:hover {
@@ -3678,6 +3704,7 @@ body {
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   -webkit-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
   transition: top 0.3s ease;
 }
 .header__top-right-block {
@@ -3849,6 +3876,7 @@ body {
   width: 760px;
   border-radius: 8px;
   -webkit-transition: top 0.3s ease;
+  -o-transition: top 0.3s ease;
   transition: top 0.3s ease;
   background-color: white;
   -webkit-transform: translate(-50%, 0);
@@ -3865,6 +3893,7 @@ body {
   width: 100%;
   height: 50px;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(137, 137, 137, 0.14)), to(transparent));
+  background: -o-linear-gradient(bottom, rgba(137, 137, 137, 0.14), transparent);
   background: linear-gradient(to top, rgba(137, 137, 137, 0.14), transparent);
   pointer-events: none;
   z-index: 1;
@@ -4130,6 +4159,7 @@ body {
 }
 .navigation-sublist__item a {
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .navigation-sublist__item:first-child {
@@ -4147,6 +4177,7 @@ body {
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .navigation-sublist__item-img {
@@ -4303,6 +4334,7 @@ body {
 }
 .navigation-sublist__item-content_link {
   -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 .navigation-sublist__item-content_link:hover {
@@ -4991,6 +5023,7 @@ body {
   font-weight: 300;
   line-height: 26px;
   -webkit-transition: max-height 0.5s ease;
+  -o-transition: max-height 0.5s ease;
   transition: max-height 0.5s ease;
 }
 
@@ -5013,6 +5046,7 @@ body {
 .new-products {
   padding: 70px 0;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, #248FEC), color-stop(35%, transparent));
+  background: -o-linear-gradient(top, #248FEC 65%, transparent 35%);
   background: linear-gradient(180deg, #248FEC 65%, transparent 35%);
   border-bottom: 1px solid #ECECEC;
 }
@@ -5025,6 +5059,7 @@ body {
 .new-products {
   padding: 70px 0;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, #248FEC), color-stop(35%, transparent));
+  background: -o-linear-gradient(top, #248FEC 65%, transparent 35%);
   background: linear-gradient(180deg, #248FEC 65%, transparent 35%);
   border-bottom: 1px solid #ECECEC;
 }
@@ -5120,6 +5155,7 @@ body {
   -webkit-box-shadow: 0px 14px 24px 0px rgba(36, 143, 236, 0.18);
           box-shadow: 0px 14px 24px 0px rgba(36, 143, 236, 0.18);
   -webkit-transition: color 0.5s ease, background-color 0.5s ease;
+  -o-transition: color 0.5s ease, background-color 0.5s ease;
   transition: color 0.5s ease, background-color 0.5s ease;
 }
 .dealer-card__content__btn:hover {
@@ -5160,6 +5196,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .slider-gallery__list-item {
@@ -5316,6 +5353,7 @@ body {
   background-color: #FBFBFB;
   padding: 18px 15px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .models-card:hover {
@@ -5342,6 +5380,7 @@ body {
   line-height: 18px;
   margin-bottom: 4px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .models-card__subtitle {
@@ -5350,6 +5389,7 @@ body {
   font-weight: 400;
   line-height: 12px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -5405,6 +5445,7 @@ body {
   padding: 18px 34px;
   border-radius: 4px;
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   background-color: #FBE200;
 }
@@ -5895,6 +5936,7 @@ body {
   background-color: #FBE200;
   -webkit-transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
   transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
+  -o-transition: background-color 0.5s ease, box-shadow 0.5s ease;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
   transition: background-color 0.5s ease, box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease;
 }
@@ -6055,6 +6097,7 @@ body {
   background-color: #FFF27E;
   -webkit-transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
   transition: background-color 0.5s ease, -webkit-box-shadow 0.5s ease;
+  -o-transition: background-color 0.5s ease, box-shadow 0.5s ease;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
   transition: background-color 0.5s ease, box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease;
 }
@@ -6501,6 +6544,7 @@ body {
   border-radius: 4px;
   background-color: #248FEC;
   -webkit-transition: color 0.5s ease, background-color 0.5s ease;
+  -o-transition: color 0.5s ease, background-color 0.5s ease;
   transition: color 0.5s ease, background-color 0.5s ease;
 }
 .services-registration__centers__btn:hover {
@@ -7033,6 +7077,7 @@ body {
   background: white;
   overflow: hidden;
   -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: relative;
 }
@@ -7126,6 +7171,7 @@ body {
   -webkit-box-shadow: 0px 14px 24px 0px rgba(36, 143, 236, 0.18);
           box-shadow: 0px 14px 24px 0px rgba(36, 143, 236, 0.18);
   -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .brand-card__btn-call:hover {
@@ -7372,6 +7418,7 @@ body {
   border-radius: 4px;
   background-color: #FBFBFB;
   -webkit-transition: color 0.5s ease, background-color 0.5s ease;
+  -o-transition: color 0.5s ease, background-color 0.5s ease;
   transition: color 0.5s ease, background-color 0.5s ease;
 }
 .login__form__header__btn:hover {
